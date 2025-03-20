@@ -1,8 +1,13 @@
 {
   "name": "using-defer",
   "type": "module",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "module": "./dist/index.js",
+    "types": "./dist/index.d.ts"
+  },
   "author": "Lebedev Nikita",
   "repository": "https://github.com/lebedev-nikita/using-defer",
   "scripts": {
