@@ -2,7 +2,7 @@
   "name": "using-defer",
   "module": "index.ts",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Lebedev Nikita",
   "repository": "https://github.com/lebedev-nikita/using-defer",
   "devDependencies": {
@@ -11,5 +11,11 @@
   },
   "peerDependencies": {
     "typescript": "^5"
-  }
+  },
+  "keywords": [
+    "using",
+    "defer",
+    "go",
+    "golang"
+  ]
 }
