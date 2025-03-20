@@ -2,7 +2,9 @@
 
 ## Install
 
-> npm install using-defer
+```sh
+npm install using-defer
+```
 
 ## Usage
 

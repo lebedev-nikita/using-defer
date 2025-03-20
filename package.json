@@ -2,7 +2,9 @@
   "name": "using-defer",
   "module": "index.ts",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "author": "Lebedev Nikita",
+  "repository": "https://github.com/lebedev-nikita/using-defer",
   "devDependencies": {
     "@types/bun": "latest",
     "prettier": "^3.5.3"
