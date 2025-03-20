@@ -38,3 +38,7 @@ import { defer, asyncDefer } from "using-defer";
   // World
 }
 ```
+
+## TODO
+
+compile ts to js: [example for bun](https://github.com/wobsoriano/bun-lib-starter/blob/main/build.ts)
