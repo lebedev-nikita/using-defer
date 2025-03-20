@@ -1,0 +1,13 @@
+{
+  "name": "using-defer",
+  "module": "index.ts",
+  "type": "module",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.5.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
