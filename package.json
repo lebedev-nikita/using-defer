@@ -1,17 +1,23 @@
 {
   "name": "using-defer",
-  "module": "index.ts",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.5",
+  "module": "./dist/index.js",
   "author": "Lebedev Nikita",
   "repository": "https://github.com/lebedev-nikita/using-defer",
+  "scripts": {
+    "build": "bunx tsc"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "prettier": "^3.5.3"
   },
   "peerDependencies": {
-    "typescript": "^5"
+    "typescript": "^5.8.2"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "using",
     "defer",
