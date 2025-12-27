@@ -16,6 +16,7 @@
     "build": "tsc"
   },
   "devDependencies": {
+    "delay": "^7.0.0",
     "prettier": "^3.5.3",
     "vitest": "^4.0.16"
   },
