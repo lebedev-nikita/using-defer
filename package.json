@@ -1,21 +1,23 @@
 {
   "name": "using-defer",
   "type": "module",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "exports": {
-    "module": "./dist/index.js",
-    "types": "./dist/index.d.ts"
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
   },
   "author": "Lebedev Nikita",
   "repository": "https://github.com/lebedev-nikita/using-defer",
   "scripts": {
-    "build": "bunx tsc"
+    "build": "tsc"
   },
   "devDependencies": {
-    "@types/bun": "latest",
-    "prettier": "^3.5.3"
+    "prettier": "^3.5.3",
+    "vitest": "^4.0.16"
   },
   "peerDependencies": {
     "typescript": "^5.8.2"
